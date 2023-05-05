@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Hangman Game</h1>
+	<div id="game-container">
+		<div id="word-lines-container">
+			<pre id="word-lines"></pre>
+		</div>
+		<div id="input-container">
+			<label for="input-letter">Guess a letter:</label>
+			<input type="text" id="input-letter">
+			<button id="guess-button">Guess</button>
+		</div>
+		<div id="result-container">
+			<p id="result"></p>
+		</div>
+		<div id="lives-container">
+			<p>Lives: <span id="lives">7</span></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

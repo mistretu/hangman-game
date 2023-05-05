@@ -1,0 +1,22 @@
+#game-container {
+	margin: auto;
+	width: 50%;
+}
+
+#word-lines {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#input-container label {
+	margin-right: 10px;
+}
+
+#result-container {
+	margin-top: 10px;
+}
+
+#lives-container {
+	margin-top: 10px;
+	font-weight: bold;
+}
