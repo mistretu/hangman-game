@@ -8,7 +8,7 @@ const lives = document.getElementById("lives");
 let currentWord = "";
 let remainingLives = 7;
 
-// initializarea liniilor cuvantului care trebuie ghicit
+//initializing the lines of the word to be guessed
 for (let i = 0; i < word.length; i++) {
 	if (word[i] === " ") {
 		currentWord += " ";
@@ -21,11 +21,11 @@ for (let i = 0; i < word.length; i++) {
 }
 wordLines.textContent = currentWord;
 
-// functia care se apeleaza la apasarea butonului de ghicit
+//the function that is called when the guess button is pressed
 function guessLetter() {
 	let guessedLetter = inputLetter.value.toLowerCase();
 
-	// verifica daca litera ghicita este corecta
+	//check if the guessed letter is correct
 	let correctGuess = false;
 	for (let i = 0; i < word.length; i++) {
 		if (word[i] === guessedLetter) {
